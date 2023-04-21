@@ -1,0 +1,45 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 1 JLAE</title>
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="Logo Alura Latam">
+    </header>
+        <main>
+            <section class="seccion1">
+                <textarea class="caja-texto" placeholder="Ingrese el texto aqui"></textarea>
+
+                <div class="caja-botones">
+                    <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+                </div>
+                
+            </section>
+            <section class="seccion2">
+                <div class="caja-muneco">
+                    <img src="Muñeco.png" alt="Muneco Alura">
+                </div>
+                <div class="caja-h3">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                
+                </div>
+                <div class="caja-parrafo">
+                    <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+                <div class="caja-resultado">
+                    <h3><u>Mensaje encriptado:</u></h3>
+                    
+                    <p class="texto-resultado" id="texto-a-copiar"></p>
+                </div>
+
+                <div class="caja-copiar">
+                    <button id="boton-copiar">Copiar texto encriptado</button>
+                </div>
+            </section>
+        </main>
+    <script src="index.js"></script>
+</body>
+</html>
